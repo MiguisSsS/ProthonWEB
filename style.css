@@ -1,3 +1,23 @@
-header{
-    background-color: #08111B;
+
+*{
+    Margin: 0;
+    Padding: 0;
 }
+
+
+.Cabeçalho{
+    background-color: #08111B;
+    Color: White;
+    Display: flex;
+    justify-content: space-around;
+}
+
+.LogoIMG{
+    Width: 11%
+}
+
+.Cabeçalho_Lista{
+    display: inline-block;
+    margin: 0 500px;
+}
+
