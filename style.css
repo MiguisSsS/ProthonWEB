@@ -2,6 +2,7 @@
 *{
     Margin: 0;
     Padding: 0;
+    background-color:#0B1522;
 }
 
 
@@ -16,8 +17,40 @@
     Width: 11%
 }
 
+.Logo_ani{
+    Width: 60%;
+    display: flex;
+    
+}
+
 .Cabeçalho_Lista{
     display: inline-block;
     margin: 0 500px;
 }
 
+.texto_principal{
+    color: #00BF63;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.Conteudo_Prothon{
+    Width: 80%;
+}
+
+.Titulo_Prothon{
+    margin-bottom: 20px;
+}
+
+.Logo_ani{
+    animation: Float 1s ease-in-out alternate infinite ;
+}
+
+@keyframes Float{
+    to{
+        transform: translateY(30px);
+    }
+
+}
